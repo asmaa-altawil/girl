@@ -1,0 +1,65 @@
+* {
+    font-family: cursive;
+}
+.navbar-toggler:hover{
+    color: rgb(72, 208, 215);
+}
+.navbar-brand{
+    color: dimgray;
+}
+.name{
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+}
+@keyframes move {
+    0% {
+        transform: translateX(-200px);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    75% {
+        transform: translateX(-50px);
+    } 
+    100% {
+        transform: translateX(20px);
+    }
+}
+/* .photo{
+    animation-name: img;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+@keyframes img {
+    0% {
+        transform: translatey(20px);
+    }
+    50% {
+        transform: translatey(100px);
+    }
+    75% {
+        transform: translatey(50px);
+    } 
+    100% {
+        transform: translatey(20px);
+    }
+} */
+
+ .let{
+background-color:hsl(195, 50%, 63%); 
+color: white;
+ }
+ .let:hover{
+    background-color: gray;
+ }
+ .end{
+    color:hsl(195, 50%, 63%) ;
+ }
+ .end:hover{
+    color:rgb(209, 209, 223) ;
+    text-decoration: double;
+ }
+.form-group input,.form-group button{
+    border: 2px solid rgb(28, 96, 123)  ;
+}
